@@ -5,6 +5,9 @@ context, and meaningful interactions over time.
 
 Your relationships deserve a memory system that stays personal.
 
+![banner](assets/banner.png)
+
+
 ## Landing
 
 This folder contains the public landing page for Carnegie. Keep all copy
