@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,6 +10,9 @@
     <meta name="theme-color" content="#f5f0e6" />
     <title>Carnegie | A private memory system for relationships</title>
     <link rel="icon" href="assets/logo.png" />
+    <link rel="alternate" hreflang="en-US" href="index.html" />
+    <link rel="alternate" hreflang="es-419" href="es.html" />
+    <link rel="alternate" hreflang="x-default" href="index.html" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -19,9 +22,13 @@
         <img src="assets/logo.png" alt="" width="40" height="40" />
         <span>Carnegie</span>
       </a>
-      <nav aria-label="Primary navigation">
-        <a href="#idea">Idea</a>
-        <a href="#principles">Principles</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="section-link" href="#idea">Idea</a>
+        <a class="section-link" href="#principles">Principles</a>
+        <div class="language-switcher" role="group" aria-label="Language">
+          <a aria-current="page" href="index.html">EN</a>
+          <a lang="es-419" href="es.html">ES</a>
+        </div>
         <a class="nav-cta" href="mailto:hello@carnegie.app">Get in touch</a>
       </nav>
     </header>
@@ -87,8 +94,8 @@
           <article>
             <h3>Find the thread</h3>
             <p>
-              Search across people, notes, interactions, and related resources
-              from one place, without relying on memory or spreadsheets.
+              Return to people, notes, and moments from one place, without
+              relying on memory or spreadsheets.
             </p>
           </article>
           <article>
