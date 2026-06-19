@@ -1,7 +1,5 @@
 # Carnegie
 
-![logo](assets/logo.png)
-
 ![banner](assets/banner.png)
 
 **Carnegie** es un CRM personal: un lugar privado y self-hosted para gestionar
@@ -35,3 +33,5 @@ Abre `index.html` en tu navegador, o visita el sitio publicado:
 ## Estado
 
 En desarrollo activo. Aún no disponible.
+
+![logo](assets/logo.png)
