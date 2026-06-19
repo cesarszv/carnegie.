@@ -1,19 +1,13 @@
 # Carnegie
 
-![banner](assets/banner.png)
+**Carnegie** is a private personal CRM for remembering people, relationship
+context, and meaningful interactions over time.
 
-**Carnegie** es un CRM personal: un lugar privado y self-hosted para gestionar
-las relaciones de tu vida. Guarda quién es cada persona, qué pasó este año y
-informacion relacionada, todo en un solo lugar que te pertenece.
-
-Tus relaciones, capas sobre el tiempo. Privado por diseño. Tus datos son tuyos.
+Your relationships deserve a memory system that stays personal.
 
 ## Landing
 
-Esta carpeta contiene la landing page pública de Carnegie. Es un sitio explicando en lo que estmaos trabajando
-
-## Estado
-
-El codigo y datos es privado
+This folder contains the public landing page for Carnegie. Keep all copy
+high-level, public-safe, and focused on the product idea.
 
 ![logo](assets/logo.png)
