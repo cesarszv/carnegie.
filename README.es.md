@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/logo.png" alt="Logo de Carnegie" width="96">
   <h1>Carnegie</h1>
-  <p><strong>Carnegie</strong> es un CRM personal privado para recordar personas, el contexto de las relaciones y las interacciones significativas a lo largo del tiempo.</p>
+  <p><strong>Carnegie</strong> es un concepto y producto privado en desarrollo para recordar personas, el contexto de las relaciones y las interacciones significativas a lo largo del tiempo.</p>
   <p>Desarrollado por Cesar Sebastian Zambrana Ventura.</p>
   <p>
     <a href="./README.md">English</a> ·
@@ -14,9 +14,9 @@
 
 ---
 
-Está pensado para personas que quieren una forma más tranquila de cuidar sus
-relaciones personales y profesionales sin depender de la memoria, hojas de
-cálculo ni plataformas sociales públicas.
+Presenta una idea y un producto en desarrollo para memoria privada de
+relaciones. El acceso está limitado a su propietario/equipo y no está abierto al
+público.
 
 <p align="center">
   <a href="./es.html"><img src="assets/banner.png" alt="Banner de Carnegie"></a>
@@ -26,18 +26,16 @@ cálculo ni plataformas sociales públicas.
 
 ## Misión
 
-Carnegie da un hogar privado al contexto de las relaciones. La promesa del
-producto es simple: ayudar a las personas a recordar quién importa, qué es
+Carnegie da un hogar privado al contexto de las relaciones. El producto en
+desarrollo busca ayudar a su propietario/equipo a recordar quién importa, qué es
 importante para esas personas y qué ha ocurrido a lo largo del tiempo,
 manteniendo una experiencia tranquila y personal.
 
-## Para quién es
+## Acceso
 
-- Personas que mantienen relaciones personales y profesionales significativas.
-- Consultores independientes, operadores, fundadores, asesores y creadores de
-  comunidades que necesitan memoria sin un feed social.
-- Cualquier persona que quiere que recordar relaciones se sienta intencional en
-  lugar de ruidoso.
+- Acceso privado/interno solamente.
+- No está abierto a usuarios públicos.
+- Se comparte públicamente aquí solo como idea general y producto en desarrollo.
 
 ## Principios del producto
 
@@ -78,8 +76,8 @@ Carnegie se presenta en inglés de EE. UU. y español latinoamericano neutral.
 ## Promesa pública
 
 El mensaje público de Carnegie se mantiene en un nivel general: una forma
-privada y más tranquila de recordar el contexto de las relaciones sin convertir
-a las personas en un feed.
+privada y más tranquila de recordar el contexto de las relaciones en un producto
+en desarrollo para acceso privado/interno.
 
 <p align="center">
   <img src="assets/logo.png" alt="Logo de Carnegie" width="72">

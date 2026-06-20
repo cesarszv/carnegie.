@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/logo.png" alt="Carnegie logo" width="96">
   <h1>Carnegie</h1>
-  <p><strong>Carnegie</strong> is a private personal CRM for remembering people, relationship context, and meaningful interactions over time.</p>
+  <p><strong>Carnegie</strong> is a private personal CRM concept and product in development for remembering people, relationship context, and meaningful interactions over time.</p>
   <p>Developed by Cesar Sebastian Zambrana Ventura.</p>
   <p>
     <a href="./README.md">English</a> ·
@@ -14,9 +14,8 @@
 
 ---
 
-It is for people who want a calmer way to care for personal and professional
-relationships without depending on memory, spreadsheets, or public social
-platforms.
+It presents an idea and product being built for private relationship memory.
+Access is limited to its owner/team and is not open to the public.
 
 <p align="center">
   <a href="./index.html"><img src="assets/banner.png" alt="Carnegie banner"></a>
@@ -26,16 +25,15 @@ platforms.
 
 ## Mission
 
-Carnegie gives relationship context a private home. The product promise is
-simple: help people remember who matters, what matters to them, and what has
-happened over time, while keeping the experience quiet and personal.
+Carnegie gives relationship context a private home. The product being built is
+intended to help its owner/team remember who matters, what matters to them, and
+what has happened over time, while keeping the experience quiet and personal.
 
-## Who it is for
+## Access
 
-- People who maintain meaningful personal and professional relationships.
-- Independent consultants, operators, founders, advisors, and community builders
-  who need memory without a social feed.
-- Anyone who wants relationship recall to feel intentional instead of noisy.
+- Private/internal access only.
+- Not open to public users.
+- Shared publicly here only as a high-level idea and product-in-development.
 
 ## Product Principles
 
@@ -73,7 +71,7 @@ Carnegie introduces itself in U.S. English and neutral Latin American Spanish.
 ## Public Promise
 
 Carnegie's public message stays high-level: a private, calmer way to remember
-relationship context without turning people into a feed.
+relationship context in a product being built for private/internal access.
 
 <p align="center">
   <img src="assets/logo.png" alt="Carnegie logo" width="72">
