@@ -2,6 +2,7 @@
   <img src="assets/logo.png" alt="Carnegie logo" width="96">
   <h1>Carnegie</h1>
   <p><strong>Carnegie</strong> is a private personal CRM for remembering people, relationship context, and meaningful interactions over time.</p>
+  <p>Developed by Cesar Sebastian Zambrana Ventura.</p>
   <p>
     <a href="./README.md">English</a> ·
     <a href="./README.es.md">Español</a>
