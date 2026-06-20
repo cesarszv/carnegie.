@@ -1,13 +1,27 @@
-# Carnegie
+<div align="center">
+  <img src="assets/logo.png" alt="Carnegie logo" width="96">
+  <h1>Carnegie</h1>
+  <p><strong>Carnegie</strong> is a private personal CRM for remembering people, relationship context, and meaningful interactions over time.</p>
+  <p>
+    <a href="./README.md">English</a> ·
+    <a href="./README.es.md">Español</a>
+  </p>
+  <p>
+    <a href="./index.html"><img alt="Public landing page" src="https://img.shields.io/badge/Public-Landing%20Page-111111"></a>
+  </p>
+</div>
 
-**Carnegie** is a private personal CRM for remembering people, relationship
-context, and meaningful interactions over time.
+---
 
 It is for people who want a calmer way to care for personal and professional
 relationships without depending on memory, spreadsheets, or public social
 platforms.
 
-![banner](assets/banner.png)
+<p align="center">
+  <a href="./index.html"><img src="assets/banner.png" alt="Carnegie banner"></a>
+</p>
+
+---
 
 ## Mission
 
@@ -60,4 +74,6 @@ Carnegie introduces itself in U.S. English and neutral Latin American Spanish.
 Carnegie's public message stays high-level: a private, calmer way to remember
 relationship context without turning people into a feed.
 
-![logo](assets/logo.png)
+<p align="center">
+  <img src="assets/logo.png" alt="Carnegie logo" width="72">
+</p>
