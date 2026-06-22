@@ -9,3 +9,8 @@ Rules:
 - When unsure whether something is safe, omit it and ask.
 - Prefer static, minimal assets. Do not add dependencies or app logic unless explicitly approved.
 - Before committing or pushing, review every change in this folder for information leakage.
+
+## Content Authority (Spec Anchored)
+- The single source of truth (specification) for all public-safe text and copy shown on the landing page is stored as Markdown files in the `src/content/landing/` directory.
+- All page HTML must be generated dynamically from these Markdown spec files by Astro. Do not write copy directly in Astro pages; instead, load it from the content collection.
+
