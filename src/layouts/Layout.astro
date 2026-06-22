@@ -1,0 +1,36 @@
+---
+import Header from '../components/Header.astro';
+import '../styles/style.css';
+
+interface Props {
+  title: string;
+  description: string;
+  lang: 'en' | 'es';
+}
+
+const { title, description, lang } = Astro.props;
+
+const skipLinkText = lang === 'en' ? 'Skip to content' : 'Saltar al contenido';
+---
+<!doctype html>
+<html lang={lang === 'en' ? 'en-US' : 'es-419'}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f5f0e6" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <link rel="icon" href="assets/logo.png" />
+    <link rel="alternate" hreflang="en-US" href="index.html" />
+    <link rel="alternate" hreflang="es-419" href="es.html" />
+    <link rel="alternate" hreflang="x-default" href="index.html" />
+  </head>
+  <body>
+    <a class="skip-link" href="#top">{skipLinkText}</a>
+    <Header lang={lang} />
+    <main id="top" tabindex="-1">
+      <slot />
+    </main>
+  </body>
+</html>

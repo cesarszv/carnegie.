@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.png" alt="Carnegie logo" width="96">
+  <img src="public/assets/logo.png" alt="Carnegie logo" width="96">
   <h1>Carnegie</h1>
   <p><strong>Carnegie</strong> is a private personal CRM concept and product in development for remembering people, relationship context, and meaningful interactions over time.</p>
   <p>Developed by Cesar Sebastian Zambrana Ventura.</p>
@@ -18,7 +18,7 @@ It presents an idea and product being built for private relationship memory.
 Access is limited to its owner/team and is not open to the public.
 
 <p align="center">
-  <a href="./index.html"><img src="assets/banner.png" alt="Carnegie banner"></a>
+  <a href="./index.html"><img src="public/assets/banner.png" alt="Carnegie banner"></a>
 </p>
 
 ---
@@ -74,5 +74,5 @@ Carnegie's public message stays high-level: a private, calmer way to remember
 relationship context in a product being built for private/internal access.
 
 <p align="center">
-  <img src="assets/logo.png" alt="Carnegie logo" width="72">
+  <img src="public/assets/logo.png" alt="Carnegie logo" width="72">
 </p>

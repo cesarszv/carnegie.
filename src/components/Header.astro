@@ -1,0 +1,55 @@
+---
+import { Image } from 'astro:assets';
+import logoImg from '../assets/logo.png';
+
+interface Props {
+  lang: 'en' | 'es';
+}
+
+const { lang } = Astro.props;
+
+const content = {
+  en: {
+    headerLabel: "Site header",
+    brandLabel: "Carnegie home",
+    navLabel: "Primary navigation",
+    idea: "Idea",
+    principles: "Principles",
+    langLabel: "Language",
+    cta: "Get in touch",
+  },
+  es: {
+    headerLabel: "Encabezado del sitio",
+    brandLabel: "Inicio de Carnegie",
+    navLabel: "Navegación principal",
+    idea: "Idea",
+    principles: "Principios",
+    langLabel: "Idioma",
+    cta: "Contáctanos",
+  }
+}[lang];
+---
+<header class="site-header" aria-label={content.headerLabel}>
+  <a class="brand" href="#top" aria-label={content.brandLabel}>
+    <Image src={logoImg} alt="Carnegie logo" width={40} height={40} loading="eager" />
+    <span>Carnegie</span>
+  </a>
+  <nav class="site-nav" aria-label={content.navLabel}>
+    <a class="section-link" href="#idea">{content.idea}</a>
+    <a class="section-link" href="#principles">{content.principles}</a>
+    <div class="language-switcher" role="group" aria-label={content.langLabel}>
+      {lang === 'en' ? (
+        <>
+          <a aria-current="page" href="index.html">EN</a>
+          <a lang="es-419" href="es.html">ES</a>
+        </>
+      ) : (
+        <>
+          <a lang="en-US" href="index.html">EN</a>
+          <a aria-current="page" href="es.html">ES</a>
+        </>
+      )}
+    </div>
+    <a class="nav-cta" href="mailto:hello@carnegie.app">{content.cta}</a>
+  </nav>
+</header>

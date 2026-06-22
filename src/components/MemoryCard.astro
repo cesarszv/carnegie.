@@ -1,0 +1,50 @@
+---
+interface Props {
+  lang: 'en' | 'es';
+}
+
+const { lang } = Astro.props;
+
+const content = {
+  en: {
+    ariaLabel: "Illustration of relationship memory layers",
+    title: "Relationship memory",
+    badge: "Private",
+    stableTitle: "Stable details",
+    stableText: "Who they are, what matters, what to remember.",
+    recentTitle: "Recent context",
+    recentText: "Conversations, meetings, calls, and meaningful moments."
+  },
+  es: {
+    ariaLabel: "Ilustración de capas de memoria relacional",
+    title: "Memoria relacional",
+    badge: "Privada",
+    stableTitle: "Detalles estables",
+    stableText: "Quiénes son, qué importa y qué conviene recordar.",
+    recentTitle: "Contexto reciente",
+    recentText: "Conversaciones, reuniones, llamadas y momentos significativos."
+  }
+}[lang];
+---
+<aside class="memory-card" aria-label={content.ariaLabel}>
+  <div class="card-topline">
+    <span>{content.title}</span>
+    <span>{content.badge}</span>
+  </div>
+  <div class="person-orbit" aria-hidden="true">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="card-section stable">
+    <p>{content.stableTitle}</p>
+    <strong>{content.stableText}</strong>
+  </div>
+  <div class="card-section recent">
+    <p>{content.recentTitle}</p>
+    <strong>{content.recentText}</strong>
+  </div>
+  <div class="timeline" aria-hidden="true">
+    <i></i><i></i><i></i><i></i>
+  </div>
+</aside>

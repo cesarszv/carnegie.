@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.png" alt="Logo de Carnegie" width="96">
+  <img src="public/assets/logo.png" alt="Logo de Carnegie" width="96">
   <h1>Carnegie</h1>
   <p><strong>Carnegie</strong> es un concepto y producto privado en desarrollo para recordar personas, el contexto de las relaciones y las interacciones significativas a lo largo del tiempo.</p>
   <p>Desarrollado por Cesar Sebastian Zambrana Ventura.</p>
@@ -19,7 +19,7 @@ relaciones. El acceso está limitado a su propietario/equipo y no está abierto 
 público.
 
 <p align="center">
-  <a href="./es.html"><img src="assets/banner.png" alt="Banner de Carnegie"></a>
+  <a href="./es.html"><img src="public/assets/banner.png" alt="Banner de Carnegie"></a>
 </p>
 
 ---
@@ -80,5 +80,5 @@ privada y más tranquila de recordar el contexto de las relaciones en un product
 en desarrollo para acceso privado/interno.
 
 <p align="center">
-  <img src="assets/logo.png" alt="Logo de Carnegie" width="72">
+  <img src="public/assets/logo.png" alt="Logo de Carnegie" width="72">
 </p>
